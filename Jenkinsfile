@@ -11,3 +11,4 @@ node {
     cc: '', from: '', replyTo: '', subject: 'Project Build information',
     to: 'ashokddevops@gmail.com'
     }
+}
