@@ -3,7 +3,7 @@ node {
     git 'https://github.com/Ashok103606/Interview.git'
     }
     stage('Compile-Package'){
-     def mvnHome = tool name: 'maven-3', type: 'maven'
+     def mvnHome = tool name: 'maven-3.6.2', type: 'maven'
      sh "${M2_Home}/bin/mvn package"
      }
     stage('Email'){
